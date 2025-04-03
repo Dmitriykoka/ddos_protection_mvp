@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.status-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.traffic-bars {
+    margin-top: 15px;
+}
+
+.traffic-bar {
+    margin-bottom: 15px;
+}
+
+.traffic-bar label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.progress {
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+#alert-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#traffic-chart {
+    width: 100% !important;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
